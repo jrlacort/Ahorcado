@@ -13,15 +13,14 @@ import javax.swing.JButton;
  */
 public class VentanaAhorcado extends javax.swing.JFrame {
 
-    /**
-     * Creates new form VentanaAhorcado
-     */
+   
     public VentanaAhorcado() {
         initComponents();
     }
     
     private void chequeaBoton(JButton botonPulsado){
         botonPulsado.setVisible(false);
+        
     }
     /**
      * This method is called from within the constructor to initialize the form.
